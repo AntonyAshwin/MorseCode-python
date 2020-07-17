@@ -48,11 +48,11 @@ words = a.split()
 #letter is then replaced with the durations from the dictionary above - 55
 #third for loop plays the sine wave for the duration assigned and repeats 
 #it till all the durations of the letter are complete -57
-#i have assigned a sine wave with 37hz (barely audible) for 1200 milliseconds once a word is complete to give a space - 58
+
 
 for word in words:
     for letter in word:
         sound = code.get(letter,letter)
         for i in range(0,len(sound)):
             winsound.Beep(440,sound[i])
-        winsound.Beep(37,1200)
+   
