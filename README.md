@@ -1,1 +1,1 @@
-i was too lazy to define the numbers and symbols
+i was too lazy to define numbers and symbols
